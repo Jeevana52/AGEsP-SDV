@@ -1,0 +1,18 @@
+{
+  "feature_name": "Vehicle Health and Diagnostics",
+  "services": [
+    {
+      "service_name": "ECUHealthMonitor",
+      "description": "Monitors ECU health and detects fault conditions",
+      "inputs": ["ECU_ID", "Sensor_Data"],
+      "outputs": ["Health_Status", "Fault_Code"],
+      "constraints": ["Real-time", "ASIL-B"],
+      "dependencies": ["CAN Bus", "OTA Service"]
+    }
+  ],
+  "non_functional": {
+    "latency_ms": 50,
+    "safety_standard": "ISO 26262",
+    "update_method": "OTA"
+  }
+}
