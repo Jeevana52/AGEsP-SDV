@@ -16,6 +16,18 @@ extensible and suitable for downstream development and validation.
 2. Service Design Agent (Planned)
 3. Code Generation Agent (Planned)
 
+## Progress Log
+
+### Session 1
+- Project setup
+- GitHub integration
+- Initial agent architecture
+
+### Session 2
+- Requirement Agent v1 implemented
+- Structured SDV service output defined
+- Example input/output added
+
 ## Current Status
 - Project structure initialized
 - Requirement Agent v1 implemented
@@ -26,3 +38,4 @@ extensible and suitable for downstream development and validation.
 - Enhance Requirement Agent with LLM-based reasoning
 - Implement Service Design Agent
 - Add schema validation and consistency checks
+
