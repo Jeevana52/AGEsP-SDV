@@ -30,7 +30,7 @@ extensible and suitable for downstream development and validation.
 
 ### Session 3
 - Service Design Agent v1 implemented
-- Requirement → Microservice mapping added
+- Requirement with Microservice mapping added
 - Example microservice design output added
 
 ## Current Status
