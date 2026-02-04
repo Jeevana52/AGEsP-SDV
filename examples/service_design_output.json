@@ -1,0 +1,15 @@
+{
+  "microservices": [
+    {
+      "name": "ecuhealthmonitor-service",
+      "description": "Monitors ECU health and detects faults",
+      "apis": [
+        { "endpoint": "/health", "method": "GET" },
+        { "endpoint": "/faults", "method": "GET" }
+      ],
+      "data_contract": ["Health_Status", "Fault_Code"],
+      "runtime": "AUTOSAR Adaptive",
+      "communication": "SOME/IP"
+    }
+  ]
+}

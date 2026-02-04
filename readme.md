@@ -13,16 +13,33 @@ extensible and suitable for downstream development and validation.
 
 ## Initial Agent Pipeline (PoC)
 1. Requirement Agent ✅
-2. Service Design Agent (Planned)
+2. Service Design Agent ✅
 3. Code Generation Agent (Planned)
 
-## Current Status
-- Project structure initialized
+## Progress Log
+
+### Session 1
+- Project setup
+- GitHub integration
+- Initial agent architecture
+
+### Session 2
 - Requirement Agent v1 implemented
+- Structured SDV service output defined
+- Example input/output added
+
+### Session 3
+- Service Design Agent v1 implemented
+- Requirement → Microservice mapping added
+- Example microservice design output added
+
+## Current Status
+- Requirement Agent v1 implemented
+- Service Design Agent v1 implemented
 - Structured SDV service output defined
 - Example SDV requirement output added
 
 ## Next Steps
-- Enhance Requirement Agent with LLM-based reasoning
-- Implement Service Design Agent
+- LLM-enable Requirement Agent
+- Implement Code Generation Agent
 - Add schema validation and consistency checks
