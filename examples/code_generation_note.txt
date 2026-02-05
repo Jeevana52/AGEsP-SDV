@@ -1,0 +1,2 @@
+Session-4: Code Generation Agent v1 generates FastAPI microservice skeletons
+inside /generated based on microservice specs.

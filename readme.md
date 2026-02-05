@@ -14,7 +14,7 @@ extensible and suitable for downstream development and validation.
 ## Initial Agent Pipeline (PoC)
 1. Requirement Agent ✅
 2. Service Design Agent ✅
-3. Code Generation Agent (Planned)
+3. Code Generation Agent ✅
 
 ## Progress Log
 
@@ -33,6 +33,12 @@ extensible and suitable for downstream development and validation.
 - Requirement with Microservice mapping added
 - Example microservice design output added
 
+### Session 4
+- Code Generation Agent v1 implemented
+- Generated FastAPI microservice skeleton from service design output
+- Added generated service folder
+
+
 ## Current Status
 - Requirement Agent v1 implemented
 - Service Design Agent v1 implemented
@@ -41,5 +47,6 @@ extensible and suitable for downstream development and validation.
 
 ## Next Steps
 - LLM-enable Requirement Agent
-- Implement Code Generation Agent
 - Add schema validation and consistency checks
+- Improve code generation using APIs + data contracts
+
