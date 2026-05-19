@@ -51,15 +51,16 @@ extensible and suitable for downstream development and validation.
 - Added retry-on-invalid-output mechanism
 - Integrated llama3.1 for SDV requirement extraction
 
+### Session 6
+- Added multi-agent orchestration workflow
+- Connected Requirement → Service Design → Code Generation pipeline
+- Added orchestrator module for end-to-end SDV generation
+
 ## Current Status
 - Requirement Agent v2 (LLM-powered) implemented
 - Service Design Agent v1 implemented
 - Code Generation Agent v1 implemented
+- Multi-agent orchestration workflow implemented
 - Local LLM integration via Ollama completed
 - JSON schema validation added
 
-## Next Steps
-- Add multi-agent orchestration
-- Implement Planner + Critic agents
-- Improve code generation with API/data-contract awareness
-- Add architecture diagram and workflow visualization
