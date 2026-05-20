@@ -49,6 +49,13 @@ def run_pipeline(feature_text: str):
     print(json.dumps(review, indent=2))
 
     print("\nPipeline completed successfully.")
+    return {
+        "planner": plan,
+        "requirement": requirements,
+        "service_design": service_design,
+        "generated_code": "\n\n".join([f"# {f}" for f in generated_services]),
+        "critic": review
+    }
 
 
 if __name__ == "__main__":
